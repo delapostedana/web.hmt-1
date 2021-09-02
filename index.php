@@ -140,6 +140,14 @@ $section5 = [
 		"id"	=> "Testimoni",
 		"en"	=> "Testimony"
 	],
+	"testi" => [
+		"id"	=> "Mukjizat dari Tuhan itu bisa muncul di mana saja. Saat kita berziarah, sebenarnya iman kita dibangkitkan, karena mengunjungi tempat-tempat bersejarah yang pernah dikunjungi Tuhan Yesus Kristus. Kalau kita percaya bahwa mukjizat akan terjadi di dalam hidup kita, maka jadilah itu seperti iman kita, dengan motto Hidup Memberkati dan Terberkati.",
+		"en"	=> "Miracles from God can appear anywhere. When we make pilgrimages, actually our faith is raised, because we visit historical places that the Lord Jesus Christ has visited. If we believe that miracles will happen in our lives, then be it like our faith, with the motto Be Bless and Blessed Life."
+	],
+	"jabatan"	=> [
+		"id"	=> "Direktur Utama PT Hidup Makmur Terencana",
+		"en"	=> "President Director of PT Hidup Makmur Terencana"
+	],
 	"testi1" => [
 		"id"	=> "Saya merekomendasikan umat Kristen dan gereja-gereja yang ada di Indonesia untuk mengikuti dan mendukung kegiatan ini, berziarah ke Holy Land untuk menikmati berkat-berkat Tuhan.",
 		"en"	=> "I recommend Christians and churches in Indonesia to follow and support this activity, make a pilgrimage to the Holy Land to enjoy God's blessings."
@@ -157,7 +165,7 @@ $section5 = [
 		"en"	=> "I support this program and let HMT be a community that has a Blessing and Blessed Lifestyle."
 	],
 	"jabatan2"	=> [
-		"id"	=> "Mantan Dirjen Bimas Kristen, Kementerian Agama RI",
+		"id"	=> "Mantan Pangdam Jaya",
 		"en"	=> "Former Commander of the Jakarta Army"
 	],
 	"nama3"	=> [
@@ -564,7 +572,24 @@ $blog1 = [
 					<!-- single testi -->
 					<div class="single_testi row">
 						<div class="testi-img col-lg-6">
-							<img style="width:300px" class="rounded mx-auto d-block" src="img/testi-img.jpg" alt="">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi1.png" alt="">
+						</div>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span> <?= $section5['testi'][$lang] ?> <span style="font-size:30pt"><strong>"</strong></span></p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4>Ronny Benyamin Tambayong, SE, MACM</h4>
+									<p><?= $section5['jabatan'][$lang] ?></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- single testi -->
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi2.png" alt="">
 						</div>
 						<div class="col-lg-6">
 							<div class="testi_content">
@@ -579,138 +604,222 @@ $blog1 = [
 						</div>
 					</div>
 					<!-- single testi -->
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
-								<?= $section5['testi2'][$lang] ?>
-								<span style="font-size:30pt"><strong>"</strong></span>
-							</p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi3.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama2'][$lang] ?></h4>
-								<p><?= $section5['jabatan2'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi2'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama2'][$lang] ?></h4>
+									<p><?= $section5['jabatan2'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi3'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi4.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama3'][$lang] ?></h4>
-								<p><?= $section5['jabatan3'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi3'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama3'][$lang] ?></h4>
+									<p><?= $section5['jabatan3'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi4'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi5.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama4'][$lang] ?></h4>
-								<p><?= $section5['jabatan4'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi4'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama4'][$lang] ?></h4>
+									<p><?= $section5['jabatan4'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi5'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi6.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama5'][$lang] ?></h4>
-								<p><?= $section5['jabatan5'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi5'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama5'][$lang] ?></h4>
+									<p><?= $section5['jabatan5'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi6'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi7.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama6'][$lang] ?></h4>
-								<p><?= $section5['jabatan6'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi6'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama6'][$lang] ?></h4>
+									<p><?= $section5['jabatan6'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi7'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi8.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama7'][$lang] ?></h4>
-								<p><?= $section5['jabatan7'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi7'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama7'][$lang] ?></h4>
+									<p><?= $section5['jabatan7'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi8'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi9.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama8'][$lang] ?></h4>
-								<p><?= $section5['jabatan8'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi8'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama8'][$lang] ?></h4>
+									<p><?= $section5['jabatan8'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi9'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi10.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama9'][$lang] ?></h4>
-								<p><?= $section5['jabatan9'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi9'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama9'][$lang] ?></h4>
+									<p><?= $section5['jabatan9'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi10'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi11.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama10'][$lang] ?></h4>
-								<p><?= $section5['jabatan10'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi10'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama10'][$lang] ?></h4>
+									<p><?= $section5['jabatan10'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi11'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi12.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama11'][$lang] ?></h4>
-								<p><?= $section5['jabatan11'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi11'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama11'][$lang] ?></h4>
+									<p><?= $section5['jabatan11'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="single_testi">
-						<div class="testi_content">
-							<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span><?= $section5['testi12'][$lang] ?><span style="font-size:30pt"><strong>"</strong></span></p>
+					<div class="single_testi row">
+						<div class="testi-img col-lg-6">
+							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi13.png" alt="">
 						</div>
-						<div class="testi_author">
-							<div class="a-desc">
-								<h4><?= $section5['nama12'][$lang] ?></h4>
-								<p><?= $section5['jabatan12'][$lang] ?></p>
+						<div class="col-lg-6">
+							<div class="testi_content">
+								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span>
+									<?= $section5['testi12'][$lang] ?>
+									<span style="font-size:30pt"><strong>"</strong></span>
+								</p>
+							</div>
+							<div class="testi_author">
+								<div class="a-desc">
+									<h4><?= $section5['nama12'][$lang] ?></h4>
+									<p><?= $section5['jabatan12'][$lang] ?></p>
+								</div>
 							</div>
 						</div>
 					</div>

@@ -156,6 +156,6 @@
 			</div>
 		</nav>
 	</section>
-	<a href="https:wa.me/<?= $no_wa ?>?text=Halo%20Admin" target="_BLANK">
+	<a href="https://wa.me/<?= $no_wa ?>?text=Halo%20Admin" target="_BLANK">
             <img src="img/whatsapp.svg" class="wabutton" alt="Whatsapp-Button" />
         </a>

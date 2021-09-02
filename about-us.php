@@ -269,7 +269,7 @@
 	<nav aria-label="breadcrumb">
 	  <ol class="breadcrumb">
 		<li class="breadcrumb-item breadcrumb-first"><a href="#">Home</a></li>
-		<li class="breadcrumb-item active" aria-current="page">Abous Us</li>
+		<li class="breadcrumb-item active" aria-current="page">About Us</li>
 	  </ol>
 	</nav>
 </div>

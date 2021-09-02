@@ -67,7 +67,7 @@
 									?>
 									</span>
 								</div>
-								<a href="https:wa.me/<?= $no_wa ?>?text=<?= $template[$lang] .$row['nama_paket'] ?>" target="_BLANK" class="btn btn-success"><i class="fa fa-whatsapp"></i> <?= $tombol["order"][$lang] ?></a>
+								<a href="https://wa.me/<?= $no_wa ?>?text=<?= $template[$lang] .$row['nama_paket'] ?>" target="_BLANK" class="btn btn-success"><i class="fa fa-whatsapp"></i> <?= $tombol["order"][$lang] ?></a>
 								<a href="package-detail.php?lang=<?= $lang ?>&id=<?= $row['id'] ?>" class="btn btn-info"><i class="fa fa-eye"></i> Detail</a>
 						</div>
 					</div>
