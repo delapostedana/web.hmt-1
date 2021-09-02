@@ -1,8 +1,8 @@
 <?php
-$servername = "101.50.3.217";
-$database = "admin_default";
-$username = "admin_default";
-$password = "BGMel4Ti6q";
+$servername = "localhot";
+$database = "hmttour";
+$username = "root";
+$password = "";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection

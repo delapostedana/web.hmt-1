@@ -1,30 +1,40 @@
 <?php
 
-	ini_set( 'display_errors', 1 );
-    error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+require 'vendor/autoload.php';
 
-	$admin = 'ismail15000000@gmail.com';
-	
-	$nama	= 'coba';
-	$email	= 'tes@tes.com';
-	$judul	= 'apakabar';
-	$pesan	= 'ini nyoba dulu si';
-	$pengirim	= 'Dari: '.$nama.' <'.$email.'>';
-    $headers = array(
-        'From' => $email,
-        'Reply-To' => $email,
-        'Nama' => $nama,
-        'X-Mailer' => 'PHP/' . phpversion()
-    );
-	$our_server = 'ssl://smtp.gmail.com';
-	$port = 465;
-	ini_set('SMTP', $our_server );
-	ini_set('smtp_port', $port );
-	ini_set('smtp_user', $admin );
-	
-	if(mail($admin, $judul, $pesan, $headers)){
-		echo "sukses";
-	}
+$mail             = new PHPMailer();
+
+$mail->IsSMTP(); // telling the class to use SMTP
+$mail->Host       = "mail.yourdomain.com"; // SMTP server
+$mail->SMTPDebug  = 2;                     // enables SMTP debug information (for testing)
+                                           // 1 = errors and messages
+                                           // 2 = messages only
+$mail->SMTPAuth   = true;                  // enable SMTP authentication
+$mail->SMTPSecure = "tls";                 
+$mail->Host       = "smtp.gmail.com";      // SMTP server
+$mail->Port       = 587;                   // SMTP port
+$mail->Username   = "ismail15000000@gmail.com";  // username
+$mail->Password   = "ddd";            // password
+
+$mail->SetFrom('user@gmail.com', 'Test');
+
+$mail->Subject    = "I hope this works!";
+
+$mail->MsgHTML('Blah');
+
+$address = "ismail060196@gmail.com";
+$mail->AddAddress($address, "Test");
+
+if(!$mail->Send()) {
+  echo "Mailer Error: " . $mail->ErrorInfo;
+} else {
+  echo "Message sent!";
+}
 
     // $to = "rockybd1995@gmail.com";
     // $from = $_REQUEST['email'];
