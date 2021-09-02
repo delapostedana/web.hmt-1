@@ -142,11 +142,11 @@ $section5 = [
 	],
 	"testi" => [
 		"id"	=> "Mukjizat dari Tuhan itu bisa muncul di mana saja. Saat kita berziarah, sebenarnya iman kita dibangkitkan, karena mengunjungi tempat-tempat bersejarah yang pernah dikunjungi Tuhan Yesus Kristus. Kalau kita percaya bahwa mukjizat akan terjadi di dalam hidup kita, maka jadilah itu seperti iman kita, dengan motto Hidup Memberkati dan Terberkati.",
-		"en"	=> "I recommend Christians and churches in Indonesia to follow and support this activity, make a pilgrimage to the Holy Land to enjoy God's blessings."
+		"en"	=> "Miracles from God can appear anywhere. When we make pilgrimages, actually our faith is raised, because we visit historical places that the Lord Jesus Christ has visited. If we believe that miracles will happen in our lives, then be it like our faith, with the motto Be Bless and Blessed Life."
 	],
 	"jabatan"	=> [
 		"id"	=> "Direktur Utama PT Hidup Makmur Terencana",
-		"en"	=> "Former Director of the Directorate General of Christian Community Guidance, Ministry of Religion of the Republic of Indonesia"
+		"en"	=> "President Director of PT Hidup Makmur Terencana"
 	],
 	"testi1" => [
 		"id"	=> "Saya merekomendasikan umat Kristen dan gereja-gereja yang ada di Indonesia untuk mengikuti dan mendukung kegiatan ini, berziarah ke Holy Land untuk menikmati berkat-berkat Tuhan.",
