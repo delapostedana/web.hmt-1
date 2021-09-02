@@ -165,7 +165,7 @@ $section5 = [
 		"en"	=> "I support this program and let HMT be a community that has a Blessing and Blessed Lifestyle."
 	],
 	"jabatan2"	=> [
-		"id"	=> "Mantan Dirjen Bimas Kristen, Kementerian Agama RI",
+		"id"	=> "Mantan Pangdam Jaya",
 		"en"	=> "Former Commander of the Jakarta Army"
 	],
 	"nama3"	=> [

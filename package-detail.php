@@ -149,7 +149,7 @@
         </div>
     </div>
     <a href="javascript:history.go(-1)" class="btn btn-warning text-white"><i class="fa fa-arrow-left"></i> <?= $tombol["kembali"][$lang] ?></a>
-    <a href="https:wa.me/<?= $no_wa ?>?text=<?= $template[$lang] .$d['nama_paket'] ?>" target="_BLANK" class="btn btn-success"><i class="fa fa-whatsapp"></i> <?= $tombol["order"][$lang] ?></a> 
+    <a href="https://wa.me/<?= $no_wa ?>?text=<?= $template[$lang] .$d['nama_paket'] ?>" target="_BLANK" class="btn btn-success"><i class="fa fa-whatsapp"></i> <?= $tombol["order"][$lang] ?></a> 
     <a href="download.php?filename=<?= $d['download_'.$lang] ?>.pdf" id="konvert" class="btn btn-primary text-white" style="display:none"><i class="fa fa-download"></i> Download PDF</a>
 </div>
 
