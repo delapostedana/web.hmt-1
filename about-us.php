@@ -410,7 +410,7 @@
 				</div>
 				</div>
 				<div class="col-lg-6 about">
-					<img class="mt-5 mb-3" style="width:100%" src="img/about/3.jpg" alt="">
+					<img class="mt-5 mb-3" style="width:100%" src="img/about/3.JPG" alt="">
 				</div>
 				<div class="col-lg-6">
 					<strong><?= $section4['sub5'][$lang] ?></strong>
@@ -424,14 +424,14 @@
 					<p><?= $section4['sub7Isi'][$lang] ?></p>
 				</div>
 				<div class="col-lg-4 about">
-					<img class="mb-3" style="width:100%" src="img/about/4.jpg" alt="">
+					<img class="mb-3" style="width:100%" src="img/about/4.JPG" alt="">
 				</div>		
 				<div class="col-12">
 				<strong><?= $section4['sub8'][$lang] ?></strong>
 					<p><?= $section4['sub8Isi'][$lang] ?></p>
 				</div>
 				<div class="col-lg-4 about">
-					<img class="mb-3" style="width:100%" src="img/about/6.jpg" alt="">
+					<img class="mb-3" style="width:100%" src="img/about/6.JPG" alt="">
 				</div>	
 				<div class="col-lg-8">
 				<strong><?= $section4['sub9'][$lang] ?></strong>

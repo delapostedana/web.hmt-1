@@ -40,7 +40,21 @@
     $tombol = [
         "id"    => "Kirim Pesan",
         "en"    => "Send Message"
-    ]
+    ];
+    $alertSukses = [
+        "strong"  =>[
+            "id"    => "Selamat!",
+            "en"    => "Congratulations!"
+        ],
+        "p"  =>[
+            "id"    => "Pesan anda berhasil dikirim",
+            "en"    => "Your message was sent successfully"
+        ]
+    ];
+    $alertGagal = [
+            "id"    => "Pesan anda gagal dikirim :(",
+            "en"    => "Your message failed to send :("
+    ];
 ?> 
 <div style="margin-top:100px;">
 	<nav aria-label="breadcrumb">
@@ -54,7 +68,7 @@
     <section class="contact_area pt-3">
         <div class="container">
             <h1><?= $judul[$lang] ?></h1>
-            <iframe class="pb-4" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8091803236966!2d106.89491031429279!3d-6.15630599554278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f538c5bc8907%3A0xac1c0eafa26263b6!2sHMT%20Tours%20%26%20Travel!5e0!3m2!1sid!2sid!4v1629267987991!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="pb-4" width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.8448319259487!2d106.891642!3d-6.1515301!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f541ce19b945%3A0x3431c7aaadd1f1b6!2sMall%20Of%20Indonesia!5e0!3m2!1sid!2sid!4v1630576643293!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <div class="row">
                 <div class="col-lg-5">
                     <div class="contact_info">
@@ -76,6 +90,24 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
+                <?php   if (isset($_GET['status'])) {
+      
+                    if ($_GET['status']=='berhasil'){
+                        echo'<div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>'.$alertSukses['strong'][$lang].'</strong> '.$alertSukses['p'][$lang].'
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>';
+                    }else if ($_GET['status']=='gagal'){
+                        echo'<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Oooppsss!</strong> '.$alertGagal[$lang].'
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>';
+                    }    
+                }?>
                     <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
                         novalidate="novalidate">
                         <div class="col-md-8">
