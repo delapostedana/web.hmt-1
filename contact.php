@@ -111,6 +111,7 @@
                     <form class="row contact_form" action="contact_process.php" method="post" id="contactForm"
                         novalidate="novalidate">
                         <div class="col-md-8">
+                            <input type="hidden" name="url" value="<?php echo $url ?>">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="<?= $placeholder["nama"][$lang] ?>">
                             </div>
