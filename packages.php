@@ -80,7 +80,7 @@
 								<h5 class="card-title"><i class="fa fa-check-circle text-info"></i> <?= $row['nama_paket'] ?></h5>
 								<p class="card-text"><?= substr($row['detail_'.$lang],0,300) ?>[...]</li></ul></strong>
 								</p>
-								<div class="mb-3 mt-0">
+								<div class="mt-0">
 									<span><i class="fa fa-map-marker"> <?= $row['kota'] ?></i></span>
 									<span class="ml-3"><i class="fa fa-clock-o"> <?= $row['waktu'].' '.$waktu['hari'][$lang] ?></i></span>
 									<span class="ml-3" style="color:gold">

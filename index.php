@@ -140,14 +140,6 @@ $section5 = [
 		"id"	=> "Testimoni",
 		"en"	=> "Testimony"
 	],
-	"testi" => [
-		"id"	=> "Mukjizat dari Tuhan itu bisa muncul di mana saja. Saat kita berziarah, sebenarnya iman kita dibangkitkan, karena mengunjungi tempat-tempat bersejarah yang pernah dikunjungi Tuhan Yesus Kristus. Kalau kita percaya bahwa mukjizat akan terjadi di dalam hidup kita, maka jadilah itu seperti iman kita, dengan motto Hidup Memberkati dan Terberkati.",
-		"en"	=> "Miracles from God can appear anywhere. When we make pilgrimages, actually our faith is raised, because we visit historical places that the Lord Jesus Christ has visited. If we believe that miracles will happen in our lives, then be it like our faith, with the motto Be Bless and Blessed Life."
-	],
-	"jabatan"	=> [
-		"id"	=> "Direktur Utama PT Hidup Makmur Terencana",
-		"en"	=> "President Director of PT Hidup Makmur Terencana"
-	],
 	"testi1" => [
 		"id"	=> "Saya merekomendasikan umat Kristen dan gereja-gereja yang ada di Indonesia untuk mengikuti dan mendukung kegiatan ini, berziarah ke Holy Land untuk menikmati berkat-berkat Tuhan.",
 		"en"	=> "I recommend Christians and churches in Indonesia to follow and support this activity, make a pilgrimage to the Holy Land to enjoy God's blessings."
@@ -306,7 +298,7 @@ $blog1 = [
 			<div class="header-right col-lg-6 col-md-6">
 				<h1><?= $banner['title'][$lang] ?></h1>
 				<p class="pt-20 text-left"><?= $banner['desc'][$lang] ?></p>
-				<a href="#" class="main_btn">
+				<a href="https://play.google.com/store/apps/details?id=com.adipurnama.hmt" target="_BLANK" class="main_btn">
 					<img src="img/playstore.png" style="width: 25px; right: 180px;" alt="">
 					<span style="margin-left: 20px;"> <?= $global['btnPlayStore'][$lang] ?></span>
 				</a>
@@ -569,23 +561,6 @@ $blog1 = [
 			</div>
 			<div class="col-lg-12">
 				<div class="owl-carousel active_testimonial">
-					<!-- single testi -->
-					<div class="single_testi row">
-						<div class="testi-img col-lg-6">
-							<img style="height:300px" class="rounded-circle rounded mx-auto d-block" src="img/testi/testi1.png" alt="">
-						</div>
-						<div class="col-lg-6">
-							<div class="testi_content">
-								<p class="text-left"><span style="font-size:30pt"><strong>"</strong></span> <?= $section5['testi'][$lang] ?> <span style="font-size:30pt"><strong>"</strong></span></p>
-							</div>
-							<div class="testi_author">
-								<div class="a-desc">
-									<h4>Ronny Benyamin Tambayong, SE, MACM</h4>
-									<p><?= $section5['jabatan'][$lang] ?></p>
-								</div>
-							</div>
-						</div>
-					</div>
 					<!-- single testi -->
 					<div class="single_testi row">
 						<div class="testi-img col-lg-6">

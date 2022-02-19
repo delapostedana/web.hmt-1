@@ -147,7 +147,7 @@
 
 					</ul>
 					<div class="my-2 my-lg-0 text-center find-me">
-					<a href="#" class="main_btn">
+					<a href="https://play.google.com/store/apps/details?id=com.adipurnama.hmt" target="_BLANK" class="main_btn">
 						<img src="img/playstore.png" style="width: 25px; right: 180px;" alt="">
 						<span style="margin-left: 20px;"> <?= $global['btnPlayStore'][$lang] ?></span>
 					</a>
